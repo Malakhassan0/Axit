@@ -1,0 +1,674 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   width: 100%;
+}
+.container{
+   width: 80%;
+   margin: auto;
+   padding-top: 3%;
+   
+}
+nav{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 9999;
+}
+
+ .container1{
+    background-color: black;
+    padding-left: 8%;
+    padding-right: 8%;
+    /* padding-top: 1%;
+    padding-bottom: 1%; */
+    /* width: 100%; */
+      
+ }
+ a{
+    text-decoration: none;
+    padding-top:1% ;
+ }
+ .a1{
+    float: left;
+    font-size: 30px;
+ }
+ 
+ .ul{
+    color: aliceblue;
+    padding-left: 3% ;
+    float: right;
+    list-style: none;
+    width: 42%;
+ }
+ ul li{
+    display: inline-block;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-right: 8%;  
+    }
+ .ul-li2{
+    
+    padding-left: 10%;
+     
+    }
+
+ #t1{
+    font-weight: bold;
+    color: aliceblue;
+    
+ }
+ #t2{
+    font-weight: 300;
+    color: darkorange;
+
+ }
+ .t3{
+    color: aliceblue;
+    font-family: cursive;
+ }
+ .clear{
+    clear: both;
+ }
+ .bg-image{
+    background-image: url(../images/A1935-10-Examples-of-Contemporary-Vernacular-architecture.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    /* background-position:y bottom; */
+    
+    
+ }
+ .overlay{
+    background-color: rgba(0, 0, 0, 0.514);
+    height:100%;
+    
+ }
+ .h1-style{
+   
+    font-size: 50px;
+    padding-top: 5%;
+    /* padding-left: 7%; */
+ }
+ #fstyle{
+    color: aliceblue;
+    font-weight: bold;
+ }
+ #lstyle{
+    color: darkorange;
+    font-weight: lighter;
+ }
+ .p-style{
+   
+    color: aliceblue;
+    /* padding-left: 7%; */
+    font-size: 30px;
+    font-weight: lighter;
+
+ }
+ #hr1{
+   /* margin-left: 7%; */
+    margin-top: 3%;
+    height: 2px;
+    color: aliceblue;
+    background-color: aliceblue;
+    border-style: none;
+    border-radius: 16px;
+    width: 20%;
+    /* padding-left: 3%; */
+}
+   #p-style1{
+      color: rgba(240, 248, 255, 0.782);
+    font-size: 16px;
+    margin-top: 4%;
+    /* margin-left: 7%; */
+    /* padding-left: 4%; */
+    /* padding-right: 51%; */
+   }
+   #btn{
+      background-color: transparent;
+      color: aliceblue;
+      border: 3px solid aliceblue;
+      padding: 1% 3%;
+      /* margin-left: 7%; */
+      margin-top: 5%;
+   }
+   .left{
+      display: inline-block;
+      width: 40%;
+   } 
+   .aside-div{
+   float: right;
+    padding: 2% 2%;
+    width: 63%;
+    padding-top: 15%;
+   }
+  
+   .header1{
+      background-color: lightgrey;
+      padding: 4% 1%;
+      width: 100%;
+      text-align: center;
+     
+
+   }
+   #txt-clr{
+      color: darkorange;
+   }
+   .f{
+      background-color: aliceblue;
+      display: block;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.16);
+      padding-top: 6%;
+      padding-left: 1%;
+      padding-right: 1%;
+      padding-bottom: 10%;
+       margin-bottom: -8%;
+      
+      
+   }
+   #btn2{
+      color: aliceblue;
+      background-color: darkorange;
+      border-style: none;
+   }
+   /* .hr-container{
+      margin-top: 4%;
+      margin-left: 10%;
+      margin-bottom: 4%;
+      width: 80%;
+      
+   } */
+   
+   #inp1{
+      padding-top: 6%;
+      border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: lightgray;
+    background-color: aliceblue;
+    padding-left: 3%;
+
+   }
+   #inp2{
+      padding-top: 8%;
+      border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: lightgray;
+    background-color: aliceblue;
+    padding-left: 3%;
+
+   }
+   #inp3{
+      padding-top: 8%;
+      border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: lightgray;
+    background-color: aliceblue;
+    padding-left: 3%;
+
+   }
+   /* #l1{
+      padding-top: 2%;
+      display: block;
+   }
+   #l2{
+      padding-top: 2%;
+      display: block;
+   }
+   #l3{
+      padding-top: 2%;
+      display: block;
+   } */
+   #btn2{
+      margin-top: 8%;
+      width: 100%;
+      padding: 4% 2%;
+      
+   }
+   .container2{
+      padding-left: 7%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      
+
+   }
+   #hr2{
+      color:rgba(165, 169, 174, 0.562);
+      background-color: rgba(165, 169, 174, 0.562);
+      height: 3px;
+   }
+   .p-style2{
+      color: rgb(177, 168, 168);
+    font-size: 15px;
+    padding-right: 33%;
+   }
+   .cont{
+      display: inline-block;
+      padding-left: 10%;
+      padding-bottom:10% ;
+      padding-top: 8%;
+   }
+   .section3{
+     
+      background-color:rgba(165, 169, 174, 0.562);
+      /* box-sizing: border-box; */
+      /* width: 100%; */
+   }
+   .container3{
+      text-align: center;
+      color: aliceblue;
+      display: inline-block;
+      /* float: left; */
+      text-align: center;
+      width: 9%;
+      font-weight: bold;
+
+      
+   }
+   #div1{
+      background-color: darkorange;
+      padding: 30% 10%;
+      
+   }
+   #div2 {
+      background-color:dimgray; 
+      padding: 30% 10%;  
+   }
+   #div3{
+      background-color: dimgray;
+      padding: 30% 10%;
+   }
+   .container4{
+      display: inline-block;
+      /* background-color: brown; */
+      /* margin-right: 44%; */
+      margin-left: 16%;
+      margin-top: -36%;
+      margin-bottom: 2%;
+      padding-left: 2%;
+      padding-right: 5%;
+      padding-bottom: 1%;
+      width: 45%;
+      
+   }
+   .h4-title{
+      font-size: 17px;
+      padding-bottom: 8%;
+   }
+  
+   .p-style3{
+      padding-right: 30%;
+      
+   }
+    .p-clr{
+      color: rgb(154,154,154);
+      
+   }
+   .p-space{
+      padding-bottom: 5%;
+   }
+   #btn3{
+      color: aliceblue;
+      background-color: darkorange;
+      padding: 2%2%;
+      border-style: none ;
+      margin-top: 8%;
+   }
+   aside{
+      
+      float: right;
+    
+   }
+   .imgg{
+    margin-top: 6%;
+    margin-left: -7%;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+   }
+   .container5{
+    display: inline-block;
+    /* box-sizing: border-box; */
+    /* padding-bottom: 10%; */
+    /* padding-left: 6%; */
+    box-shadow: 0px 0px 8px 4px lightgray;
+   }
+   .container5 img{
+      margin-bottom: -2%;
+   }
+   .aside-div2{
+      width: 58%;
+      margin-top: 2%;
+      margin-left: 2%;
+      margin-right: 0%;
+   }
+   .hr-style{
+      /* margin-top: 3%; */
+      height: 3px;
+      color: darkorange;
+      background-color: darkorange;
+      border-style: none;
+   }
+   .aside-hr{
+      width: 20%;
+      }
+   .div-hr{ 
+      margin-top: 2%; 
+      margin-bottom: 1%;
+      width: 7%;
+      height: 2px;
+      color: darkorange;
+      background-color: darkorange;
+      border-style: none;
+      }
+   .p-aside{
+      /* margin-right: -64%; */
+      padding-top: 8%;
+   }
+   .container6{
+    display: inline-block;  
+    width: 43%;
+   }
+   .containerr6{
+      margin-right: 1%;
+      box-shadow: 0px 0px 8px 4px darkslategrey;
+   }
+   img.img2 {
+      margin-bottom: -1%;
+      width: 100%;
+  }
+   .h4-title2{
+      display: inline-block;
+      font-size: 19px;
+   }
+   .p-space2{
+      padding-top: 8%;}
+   /* 
+   .img2{
+      padding-left: 5%;
+      margin-left: 9%;} */
+   
+   
+
+   .container7{
+      text-align: center;
+      padding-top: 4%;
+      padding-bottom: 5%;
+   } 
+   .spc-right{
+      padding-right: 2%;
+   }
+   .title{
+      font-size: 25px;
+      margin-bottom: 1%;
+      font-family:Lucida Handwriting;
+   }
+   .title1{
+      margin-bottom: 1%;
+      font-family: monospace;
+      font-size: 25px;
+      font-weight: 100;
+   
+   }
+   .cont7-hr{
+      width: 5%;
+      height: 2px;
+      margin-left: 47%;
+      border-style: none;
+      margin-bottom: 2%;
+      color: darkorange;
+      background-color: darkorange;
+   }
+
+   .cont7-div{
+      display: inline-block;
+      text-align: center;
+      width: 30%;
+      margin-left: 3%;
+      margin-bottom: 5%;
+   }
+   .contt-h5{
+      font-size: 16px;
+      padding-bottom: 5%;
+   }
+   .cont7{
+      background-color:rgba(165, 169, 174, 0.562);
+   }
+   .darkgrey-clr{
+      background-color:rgb(51,51,51);
+      color: aliceblue;
+      text-align: center;
+      margin-top: 19%;
+      
+   }
+   .div-lst{
+      background-color: aliceblue;
+   }
+   .div-space{
+      width: 29%;
+   }
+   .h5-style{
+      font-size: 16px;
+    padding: 6% 0%;
+
+   }
+   .darkgrey-clr hr{
+      background-color: aliceblue;
+   }
+   .padding {
+      padding: 6% 0%;
+   }
+   .span1{
+      font-weight: bold;
+      font-family: serif;
+      font-size: 26px;
+  }
+   
+   .span2{
+      font-weight: bold;
+    font-size: 54px;
+    font-family: system-ui;
+   }
+
+   .span3{
+      padding-top:1% ;
+   }
+   .padding p{
+      font-size: 12px;
+    padding-top: 4%;
+   }
+   .bg-clr-div{
+      background-color: darkorange;
+      color: aliceblue;
+      text-align: center;
+      font-size: 12px;
+      font-weight: bold;
+      font-family: monospace;
+      padding-top: 4%;
+      padding-bottom: 4%;
+   }
+   ol li{
+      display: inline-block;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    list-style: none;
+   }
+   .lst-txt{
+      text-align: center;
+      font-size: 14px;
+
+   }
+   .p-style4{
+      display: inline-block;
+      background-color:rgba(165, 169, 174, 0.562);
+      width: 20%;
+      padding: 2% 2%;
+      margin-left: 10% ;
+      position: relative;
+   }
+   .triangle-down {
+      /* display: inline-block; */
+      top: 100%;
+    left: 4%;
+    position: absolute;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 19px solid rgba(165, 169, 174, 0.562);
+   }
+   .style5{
+      display: inline-block;
+    width: 16%;
+    margin-top: 3%;
+    margin-left: 9%;
+    margin-right: 5%;
+    margin-bottom:3%;
+   }
+   .style5 img{
+      display: inline-block;
+      border-radius: 50%;
+      padding-left: 7%;
+      width: 35%;
+      margin-left: 10%;
+  }
+   
+   .inline-block{
+      display: inline-block;
+   }
+   .float-right{
+      float: right;
+   }
+   .div-style{    
+    width: 58%;
+      
+   }
+   .div-style1{
+      margin-left: 31%;
+      margin-bottom: 13%;
+   }
+   .fonts2{
+      color: darkorange;
+    margin-left: 0%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid;
+    text-align: center;
+    /* padding-top: 1%; */
+    margin-right: 1%;
+    line-height: 1.8;
+    display: inline-block;
+   }
+   .p-style6{
+          /* padding-left: 3%; */
+          float: right;
+          padding-top: 10%;
+    /* margin-left: 10%;*/
+   }
+   .div-space2{
+      margin-left: 6%;
+
+   }
+   .contt7-hr{
+      width: 5%;
+      height: 2px;
+      margin-left: 47%;
+      border-style: none;
+      margin-bottom: 2%;
+      color: aliceblue;
+      background-color: aliceblue;
+   }
+   .bg-image1{
+      background-image: url(../images/download\ \(5\).jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+   }
+   .white-clr{
+      color: aliceblue;
+   }
+   .title3{
+
+      margin-bottom: 1%;
+    font-family: system-ui;
+    font-size: 30px;
+    font-weight: 400;
+   }
+   .inp{
+      display: block;
+      width: 100%;
+      padding-top: 6%;
+      border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: lightgray;
+    
+   }
+   
+   .div-form{
+      width: 38%;
+      margin-left: 7%;
+   }
+   .txt-area{
+      display: block;
+      width: 100%;
+      padding-top: 6%;
+      border-bottom-color: lightgray;
+      border-left-style: none;
+      border-right-style: none;
+      border-top-style: none;
+      width: 100%;
+   }
+   #btn4{
+      margin-top: 3%;
+    display: block;
+    background-color: darkorange;
+    color: aliceblue;
+    border-style: none;
+    /* width: 4%; */
+    margin-left: 44%;
+    padding: 1% 2%;
+    border-radius: 7%;
+      
+   }
+   .footer-style{
+      margin-top: 4%;
+      font-size: 10px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: black;
+   }
+   .fonts1{
+      width: 0%;
+      font-size: 35px;
+      padding-left: 4%;
+   }
+   .div-style2{
+      margin-top: 1%;
+   } 
+   .fonts3{
+      color: darkorange;
+      border: 2px solid;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      display: inline-block;
+      line-height: 2;
+      margin-right: 12%;
+      font-size: 27px;
+      margin-left: 16%;
+   }
+   .fonts4{
+      width: 0%;
+      font-size: 19px;
+      padding-left: 1%;
+  }
+   
+ 
+   
